@@ -446,9 +446,9 @@ header {
 /* line 43, ../sass/_header.scss */
 header h1 {
   text-indent: -9999em;
-  background: url("../images/point-logo-header.png") 0 0 no-repeat;
-  width: 145px;
-  height: 67px;
+  background: url("../images/nhc_small.png") 0 0 no-repeat;
+  width: 63px;
+  height: 63px;
   float: left;
   margin: 1em 0;
   background-size: 100%;
@@ -620,7 +620,7 @@ footer {
 }
 /* line 9, ../sass/_footer.scss */
 footer .footer-title {
-  background: url(../images/footer-logo.png) no-repeat 0 0;
+  background: url(../images/nhc_small.png) no-repeat 0 0;
   text-indent: -9999em;
   height: 66px;
   width: 150px;
@@ -694,7 +694,8 @@ footer .footer-utilities .copyright a {
 }
 /* line 3, ../sass/_home.scss */
 #home-intro {
-  background-image: url("../images/welcome-bg-600.jpg");
+  /*background-image: url("../images/welcome-bg-600.jpg");*/
+  background-image: url("../images/main_mobile.png");
   height: 100vh;
   padding: 0;
 }
@@ -708,7 +709,7 @@ footer .footer-utilities .copyright a {
 /* line 14, ../sass/_home.scss */
 #home-intro h2 dt {
   text-indent: -9999em;
-  background: url("../images/point-logo-large.png") bottom center no-repeat;
+  background: url("../images/nhc_main.png") bottom center no-repeat;
   background-size: contain;
   height: 225px;
   margin-bottom: 1%;
@@ -720,12 +721,15 @@ footer .footer-utilities .copyright a {
 
 /* line 31, ../sass/_home.scss */
 #home-worship {
-  background-image: url("../images/worship-bg-600.jpg");
+  /*background-image: url("../images/worship-bg-600.jpg");*/
+  background-image: url("../images/worship_mobile.png");
+
 }
 
 /* line 35, ../sass/_home.scss */
 #home-sermons {
-  background-image: url("../images/sermons-bg-600.jpg");
+  /*background-image: url("../images/sermons-bg-600.jpg");*/
+  background-image: url("../images/teaching_mobile.png");
 }
 
 /* line 39, ../sass/_home.scss */
@@ -904,17 +908,20 @@ footer .footer-utilities .copyright a {
 @media screen and (min-width: 800px) {
   /* line 226, ../sass/_home.scss */
   #home-intro {
-    background-image: url("../images/welcome-bg.jpg");
+    /*background-image: url("../images/welcome-bg.jpg");*/
+    background-image: url("../images/main_desktop.png");
   }
 
   /* line 230, ../sass/_home.scss */
   #home-worship {
-    background-image: url("../images/worship-bg.jpg");
+    /*background-image: url("../images/worship-bg.jpg");*/
+    background-image: url("../images/worship_desktop.png");
   }
 
   /* line 234, ../sass/_home.scss */
   #home-sermons {
-    background-image: url("../images/sermons-bg.jpg");
+    /*background-image: url("../images/sermons-bg.jpg");*/
+    background-image: url("../images/teaching_desktop.png");
   }
 
   /* line 238, ../sass/_home.scss */
