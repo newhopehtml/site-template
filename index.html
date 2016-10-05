@@ -1,224 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="nhc">
+
 <head>
-	<!--testing git-->
 	<script src="//use.typekit.net/wjo1hsm.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<title>New Hope Chapel</title>
-	<!--link type="text/css" rel="stylesheet" href="./style.css" /-->
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link type="text/css" rel="stylesheet" href="./stylesheets/styles.css" />
+	<link type="text/css" rel="stylesheet" href="./js/app/assets/css/nhc.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="./images/fav-icon.png" />
-	<!--[if lt IE 9]>
-    <script src="./js/html5-shiv.min.js"></script>
-	<![endif]-->
+	<link rel="icon" type="image/png" href="./js/app/assets/images/fav-icon.png" />
 </head>
 
 
-<body class="home ">
-
+<body class="home">
 	<div class="off-canvas-click-blocker"></div>
-	
+
 
 	<header>
-		<a href="#"><h1>New Hope Chapel</h1></a>
+		<a href="#">
+			<h1>New Hope Chapel</h1>
+		</a>
 
+<!-- HOME | NEXT STEPS | MINISTRIES | GIVE | CONNECT | WATCH | SIGN IN -->
 		<nav class="on-canvas">
 			<div class="menu-global-navigation-container">
 				<ul id="menu-global-navigation" class="menu">
-<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="#">About</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="#">Next Steps</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="#">Ministries</a></li>
-<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="#">Media</a></li>
-<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="#">Give</a></li>
-</ul></div>		</nav>
+					<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a ui-sref="home">HOME</a></li>
+					<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a ui-sref="next-steps">NEXT STEPS</a></li>
+					<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a ui-sref="ministries">MINISTRIES</a></li>
+					<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a ui-sref="give">GIVE</a></li>
+					<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a ui-sref="connect">CONNECT</a></li>
+					<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a ui-sref="watch">WATCH</a></li>
+				</ul>
+			</div>
+		</nav>
 
 	</header>
 
+	<div ui-view>
 
-
-<nav class="off-canvas">
-		<a href="#" class="off-canvas-control">Menu</a>
-		<ul><li><a href="#">Home</a></li></ul>
-		<div class="menu-global-navigation-container">
-		<ul id="menu-global-navigation-1" class="menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="#">About</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="#">Next Steps</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="#">Ministries</a></li>
-		<li <class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="#">Media</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="#">Give</a></li>
-</ul></div>	</nav>
-
-
-<section id="home-intro" class="photo promo" data-photo="./images/home-intro-bg.jpg">
-	<div class="image-filter"></div>
-	<div class="wrapper">
-		<h2>
-			
-			<dl>
-				<dt style="margin: 20px;">New Hope Chapel</dt>
-			</dl>
-		</h2>
 	</div>
-	<div id="arrowButton" >
-		<div>
-			<i class="fa fa-arrow-down"></i>
-		</div>
-	</div>
-</section>
 
-<section id="home-welcome">
-	<div class="wrapper">
-		<h3 class="section-head">Welcome</h3>
-		<p>New Hope Chapel is a movement across Plymouth with one mission. Love God.  Love People.  Change The World.  We want to help people take their next steps with Jesus, no matter where they are in their faith. So there’s no need to dress up, pretend to be perfect, or worry about your past. We just want you to experience Jesus.</p>
-		<div class="buttons">
-			<a href="#" class="button">Beliefs</a>
-			<a href="#" class="button">Staff</a>
-		</a>
-	</div>
-</section>
-
-<section id="home-worship" class="photo">
-	<div class="image-filter"></div>
-	<div class="wrapper">
-		<h3 class="section-head">Worship</h3>
-		<h4 class="section-head-desc">Dynamic. Passionate. Diverse.</h4>
-		<p>We design our Sunday worship services to help everyone experience the presence of God. The music is dynamic and high quality with a variety of worship styles and cultures represented. The goal of our worship is help people develop a passionate pursuit of Jesus.</p>
-	</div>
-</section>
-
-<section id="home-kids">
-	<div class="wrapper">
-		<div class="text-wrapper">
-			<h3 class="section-head">Kids</h3>
-			<h4 class="section-head-desc">Engaging. Secure. Intentional.</h4>
-			<p>We believe families are our first mission field and place a high priority on making sure your kids have an awesome experience. Not only will they be safe and secure, New Hope Children's Ministry uses age-appropriate teaching styles to point your children to Jesus. Your kids will be begging to come back.</p>
-			<div class="buttons">
-				<a href="#kidpoint" class="button">Family Ministries</a>
-				<!-- Kid Point & Students -->
-			</div>
-		</div>
-		<span class="paint-splatter">
-			<span id="orange"></span>
-			<span id="green"></span>
-			<span id="pink"></span>
-			<span id="purple"></span>
-			<span id="pink2"></span>
-		</span>
-	</div>
-</section>
-
-<section id="home-sermons" class="photo">
-	<div class="image-filter"></div>
-	<div class="wrapper">
-		<h3 class="section-head">Teaching</h3>
-		<h4 class="section-head-desc">Compelling. Practical. Biblical.</h4>
-		<p>Each message teaches the truths of the Bible in a compelling and meaningful way you can apply to your life.  You will experience live teaching from dynamic pastors. </p>
-		<div class="buttons">
-			<a href="http://pointchurchsermons.com" class="button">Listen to a Message</a>
-			<!--Latest Message & Series Archive -->
-		</div>
-	</div>
-</section>
-
-<section id="home-locations">
-	<div class="wrapper">
-		<h3 class="section-head">Find New Hope</h3>
-		<h4 class="section-head-desc">A Movement in Plymouth Massachusetts.</h4>
-		<p>Google Map Locator will go here. -Ben C.</p>
-		<!--ul class="locations">
-
-			<a href="#/locations/apex">
-				<li class="apex">
-					<dl>
-						<dt>Apex</dt>
-						<dd>9:15am &amp; 11am</dd>
-					</dl>
-				</li>
-			</a>
-			<a href="#/locations/cary">
-				<li class="cary">
-					<dl>
-						<dt>Cary</dt>
-						<dd>9:15am &amp; 11am</dd>
-					</dl>
-				</li>
-			</a>
-		</ul-->
-		 <!-- Add Google Maps -->
-      <div id="googleMap"></div>
-	</div>
-</section>
-
-<section id="map-canvas"></section>
-
-<section id="home-leadership" class="photo">
-	<div class="image-filter"></div>
-	<div class="wrapper">
-		<h3 class="section-head">Leadership</h3>
-		<p>New Hope Chapel is not built around the personality of one person but operates with a team of leaders devoted to pointing people to Jesus.</p>
-		<div class="buttons">
-			<a href="#staff/leadership-team" class="button">Meet Our Team</a>
-		</div>
-	</div>
-</section>
+	<footer>
+		<div class="wrapper">
 
 
 
-
-<footer>
-	<div class="wrapper">
-
-		
-	
-		<h1 class="footer-title" style="margin-left: 25px; margin-bottom: 5px"></h1>	
-		<span>
+			<h1 class="footer-title" style="margin-left: 25px; margin-bottom: 5px"></h1>
+			<span>
 			89 Court Street St.<br/>
 			Plymouth, MA 02360<br/>
 			617-650-6217
 		</span>
-	</div>
-</footer>
+		</div>
+	</footer>
 
-<script src="./js/jquery-1.11.3.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWLc81Duwb7FVxLQBHyqUrIK1Chu8uO1I"></script>
-<!--script src="http://maps.googleapis.com/maps/api/js"></script-->
-<script type="text/javascript" src="./js/scripts.js?2.24.16"></script>
-<script type="text/javascript" src="./js/jquery.jplayer.min.js"></script>
-<!-- Add Google Maps -->
-
-
-<!-- bower components -->
-<script src="./bower_components/jquery/dist/jquery.min.js"></script>
-<script src="./bower_components/angular/angular.min.js"></script>
-<script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-<script src="./bower_components/angular-route/angular-route.min.js"></script>
+	<!-- bower components -->
+	<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="./bower_components/angular/angular.min.js"></script>
+	<script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="./bower_components/angular-route/angular-route.min.js"></script>
 
 
-<script>
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+	<!-- app files -->
+	<script src="./js/app/nhc.module.js"></script>
+	<script src="/js/app/nhc.constants.js"></script>
+	<script src="/js/app/nhc.controller.js"></script>
+	<script src="/js/app/nhc.route.js"></script>
+	<script src="/js/app/nhc.service.js"></script>
 
-function initialize() {
-var mapProp = {
-  center: myCenter,
-  zoom: 12,
-  scrollwheel: false,
-  draggable: false,
-  mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
+	<script>
 
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		/**
+		 * @todo: legacy code menu setup.  Remove if possible.
+		 */
+		$(document).ready(function () {
 
-var marker = new google.maps.Marker({
-  position: myCenter,
-});
+			// get the value of the bottom of the #intro element by adding the offset of that element plus its height, set it as a variable
+			var introbottom = $('body').offset().top;
 
-marker.setMap(map);
-}
+			if ($(window).scrollTop() > introbottom) {
+				$('header').addClass('past-intro');
+			}
 
-google.maps.event.addDomListener(window, 'load', initialize);
+			// on scroll, 
+			$(window).on('scroll', function () {
+
+			// we round here to reduce a little workload
+			stop = Math.round($(window).scrollTop());
+			if (stop > introbottom) {
+					$('header').addClass('past-intro');
+			} else {
+					$('header').removeClass('past-intro');
+			}
+			});
+		});
+	</script>
 </body>
+
 </html>

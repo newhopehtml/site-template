@@ -2,10 +2,8 @@
     'use strict';
 
     var dependencies = [
-        'ui.router',
-        'ui.bootstrap',
-        'ui.bootstrap.modal',
-        'angular-loading-bar'
+        'ui.router'
+        //'angular-loading-bar'
     ];
 
      angular
