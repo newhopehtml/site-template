@@ -1971,7 +1971,7 @@ header nav #ewsmenu_main>li a {
     margin-top: .25em;
 }
 
-.page h4, .styled-page h4 {
+h4, .page h4, .styled-page h4 {
   font-weight: 400 !important;
 }
 
