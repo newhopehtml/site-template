@@ -21,6 +21,10 @@
                 url:'/home',
                 templateUrl:'./js/app/views/home.html'
             })
+            .state('about', {
+                url:'/about',
+                templateUrl:'./js/app/views/about.html'
+            })
             .state('next-steps', {
                 url:'/next-steps',
                 templateUrl:'./js/app/views/next-steps.html'
@@ -33,9 +37,9 @@
                 url:'/next-steps',
                 templateUrl:'./js/app/views/give.html'
             })
-            .state('connect', {
-                url:'/connect',
-                templateUrl:'./js/app/views/connect.html'
+            .state('contact', {
+                url:'/contact',
+                templateUrl:'./js/app/views/contact.html'
             })
              .state('watch', {
                 url:'/watch',
