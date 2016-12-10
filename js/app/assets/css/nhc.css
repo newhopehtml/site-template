@@ -119,7 +119,7 @@ html .off-canvas-click-blocker, body .off-canvas-click-blocker {
 
 /* line 47, ../sass/_global.scss */
 .section-head-desc {
-  font-size: 3em;
+  font-size: 1.6em;
   text-align: center;
   color: #00a0c6;
   margin-bottom: 2em;
@@ -374,9 +374,9 @@ ul.styled-list > li {
   }
 
   /* line 294, ../sass/_global.scss */
-  .section-head-desc {
+  /*.section-head-desc {
     font-size: 1.6em;
-  }
+  }*/
 
   /* line 298, ../sass/_global.scss */
   .buttons .button {
