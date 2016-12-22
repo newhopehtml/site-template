@@ -72,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 3, ../sass/_global.scss */
 html, body {
-  font-family: 'myriad-pro';
+  font-family: 'myriad-pro', 'Open Sans', Helvetica, Arial, sans-serif;
 }
 /* line 6, ../sass/_global.scss */
 html.promo-active, body.promo-active {
@@ -458,7 +458,7 @@ header h1 {
 /* line 53, ../sass/_header.scss */
 header nav.on-canvas {
   float: right;
-  font-family: 'myriad-pro';
+  font-family: 'myriad-pro', 'Open Sans', Helvetica, Arial, sans-serif;
   width: 75%;
   margin-right: 2em;
 }
@@ -703,7 +703,7 @@ footer .footer-utilities .copyright a {
 }
 /* line 8, ../sass/_home.scss */
 #home-intro h2 {
-  font-family: 'myriad-pro';
+  font-family: 'myriad-pro', 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 4em;
   text-align: center;
   padding-top: 30vh;
@@ -722,21 +722,29 @@ footer .footer-utilities .copyright a {
 }
 
 /* line 31, ../sass/_home.scss */
-#home-worship {
+#weekly-services {
   /*background-image: url("../images/worship-bg-600.jpg");*/
-  background-image: url("../images/worship_mobile.png");
+  background-image: url("../images/weekly_services_mobile.png");
 
 }
 
 /* line 35, ../sass/_home.scss */
-#home-sermons {
+#life-groups {
   /*background-image: url("../images/sermons-bg-600.jpg");*/
-  background-image: url("../images/teaching_mobile.png");
+  background-image: url("../images/life_groups_mobile.png");
+}
+
+#growth-track {
+    background-image: url("../images/growth_track_mobile.png");
 }
 
 /* line 39, ../sass/_home.scss */
-#home-leadership {
-  background-image: url("../images/leadership_mobile.png");
+#connect {
+  background-image: url("../images/connect_mobile.png");
+}
+
+#values{
+  background-image: url("../images/values_mobile.png");
 }
 
 /* line 43, ../sass/_home.scss */
@@ -915,22 +923,33 @@ footer .footer-utilities .copyright a {
   }
 
   /* line 230, ../sass/_home.scss */
-  #home-worship {
+  #weekly-services {
     /*background-image: url("../images/worship-bg.jpg");*/
-    background-image: url("../images/worship_desktop.png");
+    background-image: url("../images/weekly_services_desktop.png");
   }
 
   /* line 234, ../sass/_home.scss */
-  #home-sermons {
+  #life-groups {
     /*background-image: url("../images/sermons-bg.jpg");*/
-    background-image: url("../images/teaching_desktop.png");
+    background-image: url("../images/life_groups_desktop.png");
+  }
+
+  #growth-track {
+    background-image: url("../images/growth_track_desktop.png");
   }
 
   /* line 238, ../sass/_home.scss */
-  #home-leadership {
-    background-image: url("../images/leadership_desktop.png");
+  #connect{
+    background-image: url("../images/connect_desktop.png");
+  }
+
+    #values{
+    background-image: url("../images/values_desktop.png");
   }
 }
+
+
+
 @media screen and (max-width: 401px) {
   /* line 246, ../sass/_home.scss */
   #home-intro {
@@ -1955,6 +1974,7 @@ header nav #ewsmenu_main>li a {
 @media screen and (min-width: 800px) {
   .page section {
       height: 70vh;
+      min-height: 600px;
   }
 }
 .section-head {
@@ -1964,7 +1984,7 @@ header nav #ewsmenu_main>li a {
     font-size: 4em !important;
     margin-bottom: .3em !important;
     padding: 5px 0 !important;
-    font-family: 'myriad-pro' !important;
+    font-family: 'myriad-pro', 'Open Sans', Helvetica, Arial, sans-serif !important;
 }
 
 .section-head-desc {
@@ -2064,4 +2084,12 @@ div.bl-panel-items > div > div {
 .link{
   text-decoration: none;
   color: #000;
+}
+
+header nav #ewsmenu_main>li ul.ews_menu_container {
+  position: fixed;
+}
+
+.main #subcontainer{
+  padding-bottom: 0px !important;
 }
