@@ -747,6 +747,12 @@ footer .footer-utilities .copyright a {
   background-image: url("../images/values_mobile.png");
 }
 
+#kids{
+  background-image: url("../images/kids_mobile.png");
+}
+
+
+
 /* line 43, ../sass/_home.scss */
 #home-kids {
   position: relative;
@@ -945,6 +951,10 @@ footer .footer-utilities .copyright a {
 
     #values{
     background-image: url("../images/values_desktop.png");
+  }
+
+  #kids{
+    background-image: url("../images/kids_desktop.png");
   }
 }
 
