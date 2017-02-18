@@ -431,7 +431,7 @@ a.promo-bar:hover {
 }
 
 /* line 33, ../sass/_header.scss */
-header {
+/*header {
   position: fixed;
   top: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -444,7 +444,7 @@ header {
   transition: all 0.5s;
   overflow: hidden;
   *zoom: 1;
-}
+}*/
 /* line 43, ../sass/_header.scss */
 header h1 {
   text-indent: -9999em;
@@ -697,7 +697,7 @@ footer .footer-utilities .copyright a {
 /* line 3, ../sass/_home.scss */
 #home-intro {
   /*background-image: url("../images/welcome-bg-600.jpg");*/
-  background-image: url("../images/main_mobile.png");
+  background-image: url("../images/main_mobile.jpg");
   height: 110vh;
   padding: 0;
 }
@@ -724,7 +724,7 @@ footer .footer-utilities .copyright a {
 /* line 31, ../sass/_home.scss */
 #weekly-services {
   /*background-image: url("../images/worship-bg-600.jpg");*/
-  background-image: url("../images/weekly_services_mobile.png");
+  background-image: url("../images/weekly_services_mobile.jpg");
 
 }
 
@@ -735,7 +735,7 @@ footer .footer-utilities .copyright a {
 }
 
 #growth-track {
-    background-image: url("../images/growth_track_mobile.png");
+    background-image: url("../images/growth_track_mobile.jpg");
 }
 
 /* line 39, ../sass/_home.scss */
@@ -744,11 +744,11 @@ footer .footer-utilities .copyright a {
 }
 
 #values{
-  background-image: url("../images/values_mobile.png");
+  background-image: url("../images/values_mobile.jpg");
 }
 
 #kids{
-  background-image: url("../images/kids_mobile.png");
+  background-image: url("../images/kids_mobile.jpg");
 }
 
 
@@ -925,13 +925,13 @@ footer .footer-utilities .copyright a {
   /* line 226, ../sass/_home.scss */
   #home-intro {
     /*background-image: url("../images/welcome-bg.jpg");*/
-    background-image: url("../images/main_desktop.png");
+    background-image: url("../images/main_desktop.jpg");
   }
 
   /* line 230, ../sass/_home.scss */
   #weekly-services {
     /*background-image: url("../images/worship-bg.jpg");*/
-    background-image: url("../images/weekly_services_desktop.png");
+    background-image: url("../images/weekly_services_desktop.jpg");
   }
 
   /* line 234, ../sass/_home.scss */
@@ -941,7 +941,7 @@ footer .footer-utilities .copyright a {
   }
 
   #growth-track {
-    background-image: url("../images/growth_track_desktop.png");
+    background-image: url("../images/growth_track_desktop.jpg");
   }
 
   /* line 238, ../sass/_home.scss */
@@ -950,11 +950,11 @@ footer .footer-utilities .copyright a {
   }
 
     #values{
-    background-image: url("../images/values_desktop.png");
+    background-image: url("../images/values_desktop.jpg");
   }
 
   #kids{
-    background-image: url("../images/kids_desktop.png");
+    background-image: url("../images/kids_desktop.jpg");
   }
 }
 
@@ -1967,11 +1967,6 @@ header nav #ewsmenu_main {
 }
 
 
-header nav #ewsmenu_main>li a {
-    margin: 7px 24px;
-    font-size: .8em;
-}
-
 .main #subcontainer {
 /*    padding-bottom: 0px;*/
 }
@@ -2102,4 +2097,10 @@ header nav #ewsmenu_main>li ul.ews_menu_container {
 
 .main #subcontainer{
   padding-bottom: 0px !important;
+}
+
+
+header #logo{
+  display: block !important;
+  max-height: 40px !important;
 }
