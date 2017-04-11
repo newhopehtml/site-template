@@ -696,8 +696,8 @@ footer .footer-utilities .copyright a {
 }
 /* line 3, ../sass/_home.scss */
 #home-intro {
-  /*background-image: url("../images/welcome-bg-600.jpg");*/
-  background-image: url("../images/main_mobile.jpg");
+  /*background-image: url("../images/main_mobile.jpg");*/
+  background-image: url("../images/easter_mobile.jpg");
   height: 110vh;
   padding: 0;
 }
@@ -924,8 +924,9 @@ footer .footer-utilities .copyright a {
 @media screen and (min-width: 800px) {
   /* line 226, ../sass/_home.scss */
   #home-intro {
-    /*background-image: url("../images/welcome-bg.jpg");*/
-    background-image: url("../images/main_desktop.jpg");
+    /*background-image: url("../images/main_desktop.jpg");*/
+    background-image: url("../images/easter_desktop.jpg");
+	  
   }
 
   /* line 230, ../sass/_home.scss */
